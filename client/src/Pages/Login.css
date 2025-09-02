@@ -1,0 +1,38 @@
+/* Common form container styling */
+.form-container {
+    background-color: #1c222e;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    color: #ffffff;
+}
+
+/* Headings */
+.form-container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+/* Input fields */
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+/* Button */
+.form-container button {
+    width: 100%;
+    padding: 10px;
+background-color: #f4c10f; /* Yellow button */
+  color: #000;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: poppins, sans-serif;
+}

@@ -1,0 +1,125 @@
+/* Contact Section */
+.section-contact {
+  padding: 6rem 0;
+  background-color: #333; /* Light purple background */
+}
+
+/* Heading */
+.contact-content h1 {
+  font-size: 5.4rem;
+  color: #fff; /* Bold black heading */
+  text-align: center;
+  margin-bottom: 4rem;
+  text-transform: capitalize;
+}
+
+/* Contact Image */
+
+.contact-img {
+  flex: 1;
+  max-width: 50%;
+}
+
+
+.contact-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+/* Form Container */
+.section-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: #1c222e;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.05);
+}
+
+/* Form Layout */
+.section-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Labels */
+.section-form label {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #fff;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+/* Inputs and Textarea */
+.section-form input,
+.section-form textarea {
+  width: 100%;
+  padding: 1.4rem 1.4rem;
+  font-size: 1.4rem;
+  border-radius: 0.8rem;
+  border: 0.2rem solid #fff; 
+  background-color: #293141;
+  color: #fff;
+  outline: none;
+  transition: all 0.3s ease;
+  transform: scale(1.02);
+  height: fit-content;
+}
+
+.section-form input:focus,
+.section-form textarea:focus {
+  border-color: #e0a90f;
+  box-shadow: 0 0 0.5rem rgba(0, 123, 255, 0.4);
+}
+
+.section-form textarea {
+  resize: none;
+}
+
+/* Submit Button */
+.section-form button {
+  background-color: #f4c10f; /* Yellow button */
+  color: #000;
+  padding: 1.2rem 2.4rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.section-form button:hover {
+  background-color: #333;
+  color: #f4c10f;
+  border: 0.2rem solid #f4c10f;
+  transform: scale(1.05);
+}
+
+/* Map Section */
+.mb-3 iframe {
+  display: block;
+  margin: 4rem auto 0;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .grid-two-cols {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .contact-content h1 {
+    font-size: 4rem;
+  }
+
+  .section-form {
+    padding: 2rem;
+  }
+}

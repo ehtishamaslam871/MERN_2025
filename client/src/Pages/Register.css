@@ -1,0 +1,110 @@
+/* this is the same rule used for styling both forms*/ 
+
+
+.form-container {
+  background: rgba(40, 44, 52, 0.9);
+  padding: 3rem;
+  border-radius: 16px;
+  color: #e0a90f;
+  max-width: 550px;/* Common form container styling */
+.form-container {
+    background-color: #1c222e;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    color: white;
+}
+
+
+/* Headings */
+.form-container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e0a90f;
+    border-radius: 5px;
+}
+
+/* Button */
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+  min-height: 500px; 
+  margin: 2rem auto;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container h1 {
+  font-size: 2.4rem;
+  color: #e0a90f;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1.8rem;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05); 
+  color: #fff;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
+  height: 40px;
+}
+
+.form-container input:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+  transform: scale(1.02);
+  border-color: #e0a90f;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 1rem;
+  background-color: #e0a90f;
+  color: #e0a90f;
+  font-size: 1.15rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-submit:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #e0a90f;
+  transform: scale(1.03);
+}
